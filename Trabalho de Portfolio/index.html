@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projectos">Projectos</a></li>
+        <li><a href="#Contactos">Contactos</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+        <div class="header-text">
+            <p>Desenvolvedora Web</p>
+            <h1>Olá, Eu sou<br><span>Ilka Evelyn</span></h1>
+         </div>
+    </div> 
+   </div>
+        <div id="Sobre">
+            <div class="container">
+                <div class="row">
+                    <div class="sobre-col-1">
+                        <img src="Images/fundinho.jpeg.jpeg" alt="Foto de Ilka Evelyn" class="Imagem">
+                    </div>
+                    <div class="sobre-col-2">
+                        <h1 class="sub-title">Sobre Mim</h1>
+                        <p>Sou uma estudante dedicada, responsável e interessada em aprender coisas novas.<br> Tenho interesse pela área de Tecnologia da Informação e Comunicação (TIC), <br>especialmente em informática, programação e desenvolvimento de páginas web.<br>Entre as minhas principais habilidades estão a utilização do computador,<br>pesquisa na internet, criação e edição de documentos, utilização de ferramentas digitais e<br>conhecimentos básicos de HTML e desenvolvimento web.</p>
+                        <div class="tab-titles">
+                      <p class="tab-links active-link" data-tab="skills">Skills</p>
+                      <p class="tab-links" data-tab="Habilidades">Habilidades</p>
+                      <p class="tab-links" data-tab="Interesses">Interesses</p>
+                       </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML</span><br>Criação e estruturação de páginas webs,<br> tabelas, formulários e imagens.</li>
+                                <li><span>CSS</span><br>Estilização de páginas web, incluindo cores,<br> fontes, espaçamento, alinhamento, bordas e layouts.</li>
+                                <li><span>Desenvolvimento Web</span><br>Capacidade de criar páginas simples<br> e organizadas utilizando HTML e CSS.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Habilidades">
+                            <ul>
+                                <li><span>Utilização de Aplicativos de Escritório</span><br>Word, Excel, Powerpoint</li>
+                                <li><span>Criatividade e Organização</span><br>Criação e edição de documentos.<br>Praticidade e melhor produtividade. </li>
+                                <li><span>Trabalho em equipa e boa comunicação.</span><br>Melhorar continuamente os conhecimentos e adquirir novas competências.</li>
+                            </ul>
+                    </div>
+                     <div class="tab-contents" id="Interesses">
+                            <ul>
+                                <li><span>Tecnologia e informática</span><br>Ferramentas que posso utilizar para comunicar,<br>facilitar o trabalho e aprendizagem.<br></li>
+                                <li><span>Desenvolvimento e design de páginas web</span><br>Criar páginas usando o HTML e CSS<br>para embelezar e colocar diferentes transições.</li>
+                                <li><span>Programação e aperfeiçoar conhecimentos na área de TI</span><br>Aprender novas linguagens e aprender a programar com maior facilidade,<br>aperfeiçoar os meus conhecimentos na área da informática.</li>
+                            </ul>
+                          </div>    
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+                 
+            <div id="Skills">
+                <div class="container">
+                    <h1 class="sub-title">Minhas Skills</h1>
+                    <div id="Skills-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>HTml</h2>
+                            <p>Criação e estruturação de páginas webs,<br> tabelas, formulários e imagens.</p>
+                            <a href="#">Learn more</a>
+                         </div>
+                         <div>
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            <h2>CSS</h2>
+                            <p>Estilização de páginas web, incluindo cores,<br> fontes, espaçamento, alinhamento, bordas e layouts.</p>
+                            <a href="#">Learn more</a>
+                         </div>
+                         <div>
+                            <i class="fa-brands fa-chrome"></i>
+                            <h2>Desenvolvimento Web</h2>
+                            <p>Capacidade de criar páginas simples<br> e organizadas utilizando HTML e CSS.</p>
+                            <a href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div id="Projectos">
+            <div class="container">
+                 <h1 class="sub-title">Os Meus Projectos</h1>
+                 <div id="Projectos-list">
+                    <div class="Projectos">
+    <img src="Images/projecto3.jpeg" alt="Abre-garrafa em duas peças">
+    <div class="layer">
+        <h3>Abre-Garrafa</h3>
+        <p>Projecto de um abre-garrafa, dividido em duas peças<br> que se encaixam para formar o objecto completo.<br> Neste trabalho apresento as duas peças separadas,<br> onde se pode ver a forma e as dimensões de cada uma.<br> Este projecto permitiu-me praticar a observação de formas,<br> a precisão nas medidas e a organização<br> de um objecto em várias partes.</p>
+        <a href="#"><i class="fa-solid fa-hammer"></i></a>
+    </div>
+</div>
+<div class="Projectos">
+    <img src="Images/projecto2.jpeg" alt="Rede Local">
+    <div class="layer">
+        <h3>Rede Local</h3>
+        <p>Simulação de uma rede local criada no Cisco Packet Tracer,<br> com três computadores (PC0, PC1 e PC2) ligados a um switch,<br> que por sua vez está ligado a um router.<br> O switch permite a comunicação entre os computadores,<br> e o router faz a ligação da rede a outros dispositivos.<br> Este projecto ajudou-me a compreender como os equipamentos<br> de rede se ligam e comunicam entre si.</p>
+        <a href="#"><i class=""><i class="fa-solid fa-desktop"></i></i></a>
+    </div>
+</div>
+                   
+                 
+            </div>
+        </div>
+        <div id="Contactos">
+            <div class="container">
+                 <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contacte-me</h1>
+                          <p><i class="fa-solid fa-paper-plane"></i> <a href="mailto:ilkaevelynmacamo525@gmail.com">ilkaevelynmacamo525@gmail.com</a></p>
+                          <p><i class="fa-solid fa-phone"></i> <a href="tel:+258848424771">848424771</a></p>
+                          <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/258876883722" target="_blank">876883722</a></p>
+
+                            <div class="social-icons">
+                                <a href=""><i class="fa-solid fa-envelope"></i></a>
+                                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                            </div>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Seu Nome" required>
+                            <input type="Email" name="Email" placeholder="Seu email" required>
+                            <textarea name="Messagem" rows="6" placeholder="Digite uma Messagem"></textarea>
+                            <button type="Submit" class="btn btn2">Enviar</button>
+                        </form>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div class="copyright">
+                <p>Feito com dedicação e curiosidade por <i class="fa-solid fa-heart"></i> Ilka Evelyn © 2026</p>
+            </div>
+
+         <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    for (let link of tablinks) {
+        link.addEventListener("click", function () {
+            for (let l of tablinks) {
+                l.classList.remove("active-link");
+            }
+            for (let c of tabcontents) {
+                c.classList.remove("active-tab");
+            }
+            link.classList.add("active-link");
+            document.getElementById(link.dataset.tab).classList.add("active-tab");
+          });
+         var sidemenu = document.getElementById("sidemenu");
+           function openmenu(){
+           sidemenu.style.right = "0";
+         }
+          function closemenu(){
+           sidemenu.style.right = "-200px";
+          }
+         }
+
+                </script>
+        </body>
+</html>
